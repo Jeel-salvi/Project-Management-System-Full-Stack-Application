@@ -1,0 +1,36 @@
+# =====================
+# Spring Boot (Backend)
+# =====================
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/*.log
+backend/.env
+
+# Ignore Spring Boot configs
+backend/src/main/resources/application.properties
+backend/src/main/resources/application.yml
+backend/src/main/resources/application-*.properties
+backend/src/main/resources/application-*.yml
+
+# =====================
+# React (Frontend)
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# =====================
+# IDE & OS
+# =====================
+.idea/
+.vscode/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
