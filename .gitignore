@@ -8,6 +8,8 @@ backend/.settings/
 backend/.idea/
 backend/*.log
 backend/.env
+backend/.factorypath
+
 
 # Ignore Spring Boot configs
 backend/src/main/resources/application.properties
